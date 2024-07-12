@@ -189,7 +189,7 @@ $events = [
         </div>
         <p class="heading--24 color--FCF0E3 numeral">#Joanna&amp;Marcin</p>
           <div>
-            <iframe src="https://www.google.com/maps/d/embed?mid=1VoHMUuMWVaBkSwZ1IfaWJSQQL8hOYVE&ehbc=2E312F" width="100%" height="480"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15909.52154666405!2d-75.70839082900699!3d4.525307299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5ba4e538f77%3A0x47da17be0dcf255e!2sParroquia%20nuestra%20se%C3%B1ora%20del%20Carmen!5e0!3m2!1ses!2sco!4v1720741770756!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </div>
     </section>
