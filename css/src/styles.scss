@@ -96,7 +96,7 @@ video {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 100px;
+  scroll-padding: 140px;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -727,7 +727,8 @@ body {
     &__timer {
       display: flex;
       column-gap: 20px;
-      justify-content: center;
+      justify-content: space-between;
+      padding: 0 110px;
 
       @media only screen and (min-width: 1024px) {
         column-gap: 50px;
@@ -794,6 +795,43 @@ body {
               width: 100%;
             }
           }
+        }
+      }
+    }
+
+    .img {
+      position: absolute;
+
+      &-7 {
+        top: 900px;
+        right: 0;
+
+        @media only screen and (min-width: 1024px) {
+          width: 130px;
+        }
+
+        @media only screen and (min-width: 1280px) {
+          width: 150px;
+        }
+
+        @media only screen and (min-width: 1366px) {
+          width: auto;
+        }
+      }
+      &-8 {
+        bottom: 400px;
+        left: 0;
+
+        @media only screen and (min-width: 1024px) {
+          width: auto;
+        }
+
+        @media only screen and (min-width: 1280px) {
+          width: auto;
+        }
+
+        @media only screen and (min-width: 1366px) {
+          width: auto;
         }
       }
     }
@@ -1249,7 +1287,7 @@ body {
   }
 
   &--small {
-    background-image: url(../../img/box-2.png);
+    background-image: url(../../img/box-2.webp);
     width: 100%;
     margin: 0 auto;
     padding: 40px 20px;

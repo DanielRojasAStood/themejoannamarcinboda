@@ -12,7 +12,7 @@
         ?>
         </button>
         <img
-          src="<?php echo IMG_BASE . 'dress-code-bienvenida.webp' ?>"
+          src="<?php echo IMG_BASE . 'img-12.webp' ?>"
           alt=""
           id=""
         />
@@ -31,7 +31,7 @@
         ?>
         </button>
         <img
-          src="<?php echo IMG_BASE . 'dress-code-despedida.webp' ?>"
+          src="<?php echo IMG_BASE . 'img-11.webp' ?>"
           alt=""
           id=""
         />
@@ -50,7 +50,7 @@
         ?>
         </button>
         <img
-          src="<?php echo IMG_BASE . 'dress-code-wedding.webp' ?>"
+          src="<?php echo IMG_BASE . 'img-11.webp' ?>"
           alt=""
           id=""
         />
@@ -69,7 +69,7 @@
         ?>
         </button>
         <img
-          src="<?php echo IMG_BASE . 'more-info-bienvenida.webp' ?>"
+          src="<?php echo IMG_BASE . 'img-10.webp' ?>"
           alt=""
           id=""
         />

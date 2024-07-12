@@ -125,7 +125,7 @@ $events = [
     ]
   ],
   [
-    "id" => "care",
+    "id" => "pharmacy",
     "title" => "PHARMACY-URGENT CARE",
     "image" => "place-4.png",
     "places" => [
@@ -177,7 +177,7 @@ $events = [
                                 <p><?php echo $place['address']; ?></p>
                                 <p><?php echo $place['city']; ?></p>
                                 <p class="number"><?php echo $place['phone']; ?></p>
-                                <a href="<?php echo $place['link']; ?>">VIEW</a></p>
+                                <a href="<?php echo $place['link']; ?>" target="_blank">VIEW</a></p>
                             </li>
                         <?php endforeach; ?>
                     </ul>

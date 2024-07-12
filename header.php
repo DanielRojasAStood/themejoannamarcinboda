@@ -58,9 +58,9 @@
           ?>
         </a>
       </li>
-      <li><a class="header__link <?php if(is_page('wedding')): echo 'active'; endif; ?>" href="/">WEDDING</a></li>
+      <li><a class="header__link" href="/#wedding">WEDDING</a></li>
       <li><a class="header__link" href="/#events">EVENTS</a></li>
-      <li><a class="header__link <?php if(is_page('quindio')): echo 'active'; endif; ?>" href="/quindio">QUINDÍO</a></li>
+      <li><a class="header__link" href="/quindio">QUINDÍO</a></li>
       <li><a class="header__link" href="/#rsvp">R.S.V.P.</a></li>
       <li><a class="header__link" href="/important-info">IMPORTANT INFO</a></li>
     </ul>
@@ -75,11 +75,24 @@
 <!-- Menu Mobile -->
 <section class="menu-mobile" data-menu-mobile>
   <ul class="header__menu">
-    <li><a class="header__link <?php if(is_page('wedding')): echo 'active'; endif; ?>" href="/">WEDDING</a></li>
+    <li><a class="header__link" href="/#wedding">WEDDING</a></li>
     <li><a class="header__link" href="/#events">EVENTS</a></li>
-    <li><a class="header__link <?php if(is_page('quindio')): echo 'active'; endif; ?>" href="/quindio">QUINDÍO</a></li>
+    <li><a class="header__link" href="/quindio">QUINDÍO</a></li>
     <li><a class="header__link" href="/#rsvp">R.S.V.P.</a></li>
     <li><a class="header__link" href="/important-info">IMPORTANT INFO</a></li>
   </ul>
 </section>
 <!-- Fin Menu Mobile -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.header__link');
+
+    links.forEach(link => {
+      link.addEventListener('click', function() {
+        links.forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+      });
+    });
+  });
+</script>
