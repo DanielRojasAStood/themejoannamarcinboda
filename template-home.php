@@ -286,7 +286,8 @@ $events = [
           <p class="heading--64 color--964F4C">R.S.V.P.</p>
           <span class="line line--default"></span>
           <p class="heading--24 color--964F4C font-bosque">Celebrate with us!</p>
-          <p class="heading--24 color--964F4C font-bosque  pb-40">Kindly respond by JULY 20th, 2024</p>
+          <p class="heading--24 color--964F4C font-bosque">Kindly respond by</p>
+          <p class="heading--24 color--964F4C font-bosque pb-40">JULY 20th, 2024</p>
 
           <div class="sectionRsvp__form">
             <?php echo do_shortcode('[contact-form-7 id="7f3f16c" title="Contact form 1"]')?>

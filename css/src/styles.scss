@@ -726,7 +726,7 @@ body {
 
     &__timer {
       display: flex;
-      column-gap: 30px;
+      column-gap: 20px;
       justify-content: center;
       padding: 0;
 
@@ -869,12 +869,11 @@ body {
 
     img {
       position: absolute;
-      top: -50px;
+      top: -90px;
       left: 0;
       width: 300px;
 
       @media only screen and (min-width: 1024px) {
-        top: -90px;
         width: auto;
       }
     }
