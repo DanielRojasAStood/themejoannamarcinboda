@@ -1668,7 +1668,6 @@ input[type="radio"]:checked + span:before {
 }
 
 .wpcf7 form.sent .wpcf7-response-output {
-  display: none;
 }
 
 .wpcf7-not-valid-tip {
@@ -1867,7 +1866,7 @@ label.small {
   text-transform: math-auto;
 
   @media only screen and (min-width: 1024px) {
-    margin-top: 40px;
+    display: inline;
   }
 }
 
