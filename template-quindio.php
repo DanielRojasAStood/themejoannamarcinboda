@@ -88,7 +88,7 @@ $events = [
         "link" => "https://www.instagram.com/the_city_pub/",
       ],
       [
-        "name" => "MARIAJUANA <br> BAR",
+        "name" => "Portal del Quindio",
         "address" => "Cra. 14 # 19N - 46",
         "city" => "C.C. Portal del Quindio",
         "phone" => "+57 324 2672585",
@@ -116,7 +116,7 @@ $events = [
         "link" => "https://elportaldelquindio.com",
       ],
       [
-        "name" => "MARIAJUANA <br> BAR",
+        "name" => "PORTAL DEL QUINDIO",
         "address" => "Cra. 6 # 3 - 180",
         "city" => "Armenia, Quindio",
         "phone" => "+57 315 4123351",

@@ -170,7 +170,7 @@ $events = [
 
         <div class="flex flex--center flex--gap-68">
           <div class="box box--small box--0">
-            <p class="heading--72 color--964F4C pb-5">Café Quindío</p>
+            <p class="heading--72 color--964F4C pb-5">Armenia</p>
             <p class="heading--20 color--4F3747 pb-20">EXPERIENCE</p>
             
             <span class="line line--center"></span>
@@ -221,7 +221,7 @@ $events = [
                   display_icon('location'); 
                   ?> 
                 </a>
-                <a href="https://maps.app.goo.gl/jTaJZDvnHj7ZXPQG8" target="_blank" class="button button--primary button--center">
+                <a href="https://colombia.travel/armenia/visita-valle-cocora" target="_blank" class="button button--primary button--center">
                   See Info 
                   <?php 
                   get_template_part('template-parts/content', 'icono');
@@ -285,9 +285,12 @@ $events = [
         <div class="sectionRsvp__text">
           <p class="heading--64 color--964F4C">R.S.V.P.</p>
           <span class="line line--default"></span>
-
           <p class="heading--24 color--964F4C font-bosque">Celebrate with us!</p>
-          <p class="heading--24 color--964F4C font-bosque">Kindly respond by JULY 20th, 2024</p>
+          <p class="heading--24 color--964F4C font-bosque  pb-40">Kindly respond by JULY 20th, 2024</p>
+
+          <div class="sectionRsvp__form">
+            <?php echo do_shortcode('[contact-form-7 id="7f3f16c" title="Contact form 1"]')?>
+          </div>
         </div>
       </div>
 

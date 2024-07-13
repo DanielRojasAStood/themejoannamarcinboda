@@ -4,7 +4,7 @@ import { openModal, closeModal } from "./modal-init";
 import {} from "./tab-init";
 import { countdownTimer } from "./countdown-init";
 
-var target_date = new Date("July 27, 2024 15:00:00").getTime();
+var target_date = new Date("September 14, 2024 14:00:00").getTime();
 var current_date = new Date().getTime();
 var seconds_left = (target_date - current_date) / 1000;
 
