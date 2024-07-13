@@ -144,7 +144,6 @@ $events = [
     <section class="sectionCountdown">
       <img class="img img-7" src="<?php echo IMG_BASE . 'img-7.png' ?>" alt="">
       <img class="img img-8" src="<?php echo IMG_BASE . 'img-8.png' ?>" alt="">
-      <img class="img img-9" src="<?php echo IMG_BASE . 'img-9.png' ?>" alt="">
       <div class="sectionCountdown__bckg">
         <p class="heading--112 color--964F4C pb-30">Countdown!</p>
         <div id="countdown-timer" class="sectionCountdown__timer"></div>
@@ -202,6 +201,7 @@ $events = [
             </button>
           </div>
           <div class="box box--small box--0">
+            <img class="img img-9" src="<?php echo IMG_BASE . 'img-9.png' ?>" alt="">
             <p class="heading--72 color--964F4C pb-5">Cocora Valley</p>
             <p class="heading--20 color--4F3747 pb-20">EXPERIENCE</p>
             
