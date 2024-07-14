@@ -88,7 +88,7 @@ $events = [
         "link" => "https://www.instagram.com/the_city_pub/",
       ],
       [
-        "name" => "LE HOUSE COFFE",
+        "name" => "LE HOUSE COFFEE",
         "address" => "Cra. 14 # 19N - 46",
         "city" => "Le House Coffee",
         "phone" => "+57 324 2672585",
