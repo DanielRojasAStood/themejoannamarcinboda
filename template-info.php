@@ -97,6 +97,7 @@ get_header();
   
                     <p class="uppercase">Typical temperatures:</p>
                     <p class="small">18°C to 25°C (64°F to 77°F)</p>
+                    <p class="small">It's rainy season. Please bring your umbrella and boots.</p>
                   </div>
 
                   <div class="sectionQuindio__detalle sectionQuindio__detalle-2">

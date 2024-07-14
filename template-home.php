@@ -176,17 +176,17 @@ $events = [
 
             <p class="heading--24 color--4F3747 pb-15">September 12th 2024</p>
             <p class="heading--24 color--4F3747 pb-15">3:00 P.M.</p>
-            <p class="heading--24 color--4F3747 pb-10">Salento, Quindío</p>
+            <p class="heading--24 color--4F3747 pb-10">Pending</p>
             <p class="heading--18 color--4F3747 pb-20">Transfer by Bus</p>
 
             <div class="pb-20">
-              <a href="https://maps.app.goo.gl/jTaJZDvnHj7ZXPQG8" target="_blank" class="button button--primary button--center">
+              <!-- <a href="https://maps.app.goo.gl/jTaJZDvnHj7ZXPQG8" target="_blank" class="button button--primary button--center">
                 Location 
                 <?php 
                 get_template_part('template-parts/content', 'icono');
                 display_icon('location'); 
                 ?> 
-              </a>
+              </a> -->
             </div>
 
             <span class="line line--center" style="margin-bottom: 25px"></span>
@@ -221,7 +221,7 @@ $events = [
                   display_icon('location'); 
                   ?> 
                 </a>
-                <a href="https://colombia.travel/armenia/visita-valle-cocora" target="_blank" class="button button--primary button--center">
+                <a href="https://colombia.travel/en/armenia/visit-cocora-valley" target="_blank" class="button button--primary button--center">
                   See Info 
                   <?php 
                   get_template_part('template-parts/content', 'icono');
@@ -242,10 +242,10 @@ $events = [
               </button>
             </div>
 
-            <p class="heading--20 color--4F3747 pb-15">WELCOME DINNER</p>
-            <p class="heading--18 color--4F3747 pb-10">From 5:30 P.M. to 8:30 P.M.</p>
-            <p class="heading--24 color--4F3747 pb-5">La Herencia Hotel</p>
-            <p class="heading--18 color--4F3747 pb-20">Salento, Quindío</p>
+            <p class="heading--20 color--4F3747 pb-15"><strong style="font-weight: 600">WELCOME DINNER</strong></p>
+            <p class="heading--18 color--4F3747 pb-10"><strong style="font-weight: 600">From 5:30 P.M. to 8:30 P.M.</strong></p>
+            <p class="heading--24 color--4F3747 pb-5"><strong style="font-weight: 600">La Herencia Hotel</strong></p>
+            <p class="heading--18 color--4F3747 pb-20"><strong style="font-weight: 600">Salento, Quindío</strong></p>
 
             <div class="pb-20">
               <div class="grid grid--2 gap">

@@ -88,9 +88,9 @@ $events = [
         "link" => "https://www.instagram.com/the_city_pub/",
       ],
       [
-        "name" => "Portal del Quindio",
+        "name" => "LE HOUSE COFFE",
         "address" => "Cra. 14 # 19N - 46",
-        "city" => "C.C. Portal del Quindio",
+        "city" => "Le House Coffee",
         "phone" => "+57 324 2672585",
         "link" => "https://www.instagram.com/mariajuanaalehouse/",
       ],
@@ -166,7 +166,7 @@ $events = [
           <div class="sectionQuindio__places-bckg">
             <div class="sectionQuindio__places">
               <?php foreach ($events as $event) : ?>
-                <div class="sectionQuindio__place">
+                <div class="sectionQuindio__place" id="<?php echo $event['id']; ?>">
                   <div class="sectionQuindio__img" style="background-image: url(<?php echo IMG_BASE . $event['image']; ?>)">
                     <h2><?php echo $event['title']; ?></h2>
                   </div>
