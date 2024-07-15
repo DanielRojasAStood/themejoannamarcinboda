@@ -109,14 +109,14 @@ $events = [
         "link" => "https://www.instagram.com/mallparaiso/",
       ],
       [
-        "name" => "MARIAJUANA <br> BAR",
+        "name" => "PORTAL <br> DEL QUINDÍO",
         "address" => "Cra. 14 # 19N - 46",
         "city" => "Armenia, Quindio",
         "phone" => "+57 311 7463725",
         "link" => "https://elportaldelquindio.com",
       ],
       [
-        "name" => "PORTAL DEL QUINDIO",
+        "name" => "CENTRO <br> COMERCIAL CALIMA",
         "address" => "Cra. 6 # 3 - 180",
         "city" => "Armenia, Quindio",
         "phone" => "+57 315 4123351",

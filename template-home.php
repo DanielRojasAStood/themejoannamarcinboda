@@ -169,7 +169,7 @@ $events = [
 
         <div class="flex flex--center flex--gap-68">
           <div class="box box--small box--0">
-            <p class="heading--72 color--964F4C pb-5">Armenia</p>
+            <p class="heading--72 color--964F4C pb-5">Café Quindio</p>
             <p class="heading--20 color--4F3747 pb-20">EXPERIENCE</p>
             
             <span class="line line--center"></span>
@@ -245,7 +245,7 @@ $events = [
             <p class="heading--20 color--4F3747 pb-15"><strong style="font-weight: 600">WELCOME DINNER</strong></p>
             <p class="heading--18 color--4F3747 pb-10"><strong style="font-weight: 600">From 5:30 P.M. to 8:30 P.M.</strong></p>
             <p class="heading--24 color--4F3747 pb-5"><strong style="font-weight: 600">La Herencia Hotel</strong></p>
-            <p class="heading--18 color--4F3747 pb-20"><strong style="font-weight: 600">Salento, Quindío</strong></p>
+            <p class="heading--18 color--4F3747 pb-20"><strong style="font-weight: 600">Armenia, Quindío</strong></p>
 
             <div class="pb-20">
               <div class="grid grid--2 gap">
