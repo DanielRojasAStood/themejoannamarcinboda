@@ -248,21 +248,21 @@ $events = [
             <p class="heading--18 color--4F3747 pb-20"><strong style="font-weight: 600">Armenia, Quindío</strong></p>
 
             <div class="pb-20">
+              <a href="https://maps.app.goo.gl/jvT7LFUVFa1hp5gp8" target="_blank" class="button button--primary button--center">
+                Location 
+                <?php 
+                get_template_part('template-parts/content', 'icono');
+                display_icon('location'); 
+                ?> 
+              </a>
               <div class="grid grid--2 gap">
-                <a href="https://maps.app.goo.gl/jvT7LFUVFa1hp5gp8" target="_blank" class="button button--primary button--center">
-                  Location 
-                  <?php 
-                  get_template_part('template-parts/content', 'icono');
-                  display_icon('location'); 
-                  ?> 
-                </a>
-                <a href="https://maps.app.goo.gl/jTaJZDvnHj7ZXPQG8" target="_blank" class="button button--primary button--center">
+                <!-- <a href="https://maps.app.goo.gl/jTaJZDvnHj7ZXPQG8" target="_blank" class="button button--primary button--center">
                   See Info 
                   <?php 
                   get_template_part('template-parts/content', 'icono');
                   display_icon('open'); 
                   ?> 
-                </a>
+                </a> -->
               </div>
             </div>
 
